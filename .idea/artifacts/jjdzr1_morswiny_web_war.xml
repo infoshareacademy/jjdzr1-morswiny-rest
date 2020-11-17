@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jjdzr1-morswiny-web:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jjdzr1-morswiny-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jjdzr1-morswiny-web.war">
+      <element id="artifact" artifact-name="jjdzr1-morswiny-web:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/log-in.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <h1 class="text-center login-title">Please Sign in</h1>
+            <div class="account-wall">
+                <img class="profile-img"
+                     src="../Images/morswin.png" height="130" width="130"
+                     alt="">
+                <p class="p-log">Login failed! <br>
+                    Make sure you entered valid e-mail and password!</p>
+                <form class="form-signin" name="loginForm" method="post" action="/login" accept-charset="UTF-8">
+                    <input type="text" name="email" class="form-control" placeholder="Email" required autofocus>
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                    <div>
+                        <input type="submit" value="Submit" class="btn btn-lg btn-primary btn-block">
+                    </div>
+                    <label class="checkbox pull-left">
+                        <input type="checkbox" value="remember-me">
+                        Remember me
+                    </label>
+                    <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+                </form>
+            </div>
+            <div><a href="create-account.html" class="text-center new-account">Create an account </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

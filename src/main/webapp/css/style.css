@@ -1,0 +1,353 @@
+.breadcrumb-active{
+    color: #555555;
+}
+
+.white-text{
+    color: #e3eeff;
+}
+
+.primary-color{
+    background-color: #44d3ff;
+    /*background-color: #4475ff;*/
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 700px;
+    height: 700px;
+}
+
+.carouselstyle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 1500px;
+}
+
+/* toogle buttony */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.circular--square {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.content {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 730px;
+    margin-right: auto;
+    display: flex;
+}
+
+.content img {
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 50px;
+}
+
+.p-singleevent {
+    font-size: 1.5em;
+}
+
+.picture-singleevent {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 20px;
+}
+
+.button-singleevent {
+    background-color: white;
+    color: black!important;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 300px;
+    border: 2px solid #008CBA;
+
+}
+
+.button-singleevent:hover {
+    background-color: #008CBA;
+    color: white!important;
+}
+
+.event-info {
+    padding: 40px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.buttons-for-event {
+    margin-top: 30px;
+}
+
+.content h3,
+.content p {margin: 10px;
+}
+
+.card   {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.content h3,
+.content p {margin: 10px;}
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 25px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 60px 20px 20px 20px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-group .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.container-single
+{
+    position: center;
+}
+
+.fav-heart-unactive {
+    fill: currentColor;
+}
+
+.fav-heart-active {
+    fill: red;
+}
+.contact-center {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zoom{
+    transition: transform .2s;!important;
+    margin: 0 auto;!important;
+}
+
+.zoom:hover {
+    transform: scale(1.5);!important; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.main-avatar{
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 80px;
+    width: 80px;
+}
+
+

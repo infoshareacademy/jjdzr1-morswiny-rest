@@ -1,0 +1,17 @@
+version: "3"
+services:
+  mariadb:
+    image: mariadb:10.2.19
+    container_name: "jjdzr1_mariadb"
+    restart: always
+    stop_grace_period: 30s
+    command: --max_allowed_packet=130023424 # Set max_allowed_packet to 1024M
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: webapp
+      MYSQL_USER: webapp
+      MYSQL_PASSWORD: webapp
+    ports:
+      - "3366:3306"
+    volumes:
+      - ./db/mysql:/var/lib/mysql
