@@ -1,22 +1,22 @@
-#Morswiny Web Events
+# Morswiny Web Events
 
 <p align="center"><img style="height: 300px" width="300px"  src='/Users/mateuszstopyra/Desktop/Project/sprint4/jjdzr1-morswiny-rest/src/main/webapp/Images/morswin.png'/></p>
 
 Project: Terminal & Web App to register & manage cultural events
 in Tricity
 
-###Mission
+### Mission
 
 - REST API integration to get events data
 - Add, delete, update events and users using Hibernate
 - Manage favourite and created events
 - Authorize and administrate the app via admin panel
 
-###Technology
+### Technology
 
 Used: Java 14, Java EE, Rest API, HTML5, CSS3, Bootstrap, JavaScript, JUnit, Freemarker, Hibernate, mySQL, Docker, Maven, Wildfly.
 
-###Requirement
+### Requirement
 
 The code is tested on Ubuntu and macOS. Java>=8+ is required to run the code.
 
