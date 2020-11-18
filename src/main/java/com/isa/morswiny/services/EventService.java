@@ -1,9 +1,12 @@
 package com.isa.morswiny.services;
 
 import com.isa.morswiny.Dao.EventDao;
+import com.isa.morswiny.Dao.PlaceDao;
 import com.isa.morswiny.dto.EventDto;
 import com.isa.morswiny.Dao.EventSearchRepositoryInterface;
 import com.isa.morswiny.model.Event;
+import com.isa.morswiny.model.Place;
+
 import java.util.*;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -15,6 +18,9 @@ public class EventService {
 
     @Inject
     private EventDao eventDao;
+
+    @Inject
+    private PlaceDao placeDao;
 
 
     private EventDto eventToDto (Event event){
@@ -74,10 +80,15 @@ public class EventService {
     }
 
     public boolean checkIfExistsByOldIdFromJson(Integer id){
-
         return eventDao.find(id).isPresent();
 
     }
+
+    public Place check(String name){
+        return placeDao.findPlaceByName(name);
+    }
+
+
 
 
 
