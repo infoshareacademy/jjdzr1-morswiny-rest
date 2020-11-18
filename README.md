@@ -1,6 +1,6 @@
 # Morswiny Web Events
 
-<p align="center"><img style="height: 300px" width="300px"  src='/Users/mateuszstopyra/Desktop/Project/sprint4/jjdzr1-morswiny-rest/src/main/webapp/Images/morswin.png'/></p>
+<p align="center"><img style="height: 300px" width="300px"  src='/Users/mateuszstopyra/Desktop/Project/sprint4/jjdzr1-morswiny-rest/src/main/webapp/Images/morswin.png'></p>
 
 Project: Terminal & Web App to register & manage cultural events
 in Tricity
