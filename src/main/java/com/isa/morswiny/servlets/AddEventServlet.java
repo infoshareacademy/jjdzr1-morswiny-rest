@@ -111,7 +111,6 @@ public class AddEventServlet extends HttpServlet {
 
         EventDto eventDto = new EventDto();
         eventDto.setName(eventName);
-        eventDto.setActive(Integer.valueOf(active));
         eventDto.setPlace(eventDto.getPlace());
         eventDto.setUrls(eventDto.getUrls());
         eventDto.setStartDate(startDate);
@@ -128,11 +127,7 @@ public class AddEventServlet extends HttpServlet {
 
     }
 
-    /*
-        private boolean isEventAdded (Integer eventId) {
-            return eventDao.findByJsonId(eventId) != null;
-        }
-    */
+
     private boolean addEvent (EventDto eventDto){
         eventService.saveEvent(eventDto);
         return true;
