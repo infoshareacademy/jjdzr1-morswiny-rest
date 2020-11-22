@@ -1,6 +1,9 @@
 # Morswiny Web Events
 
-<p align="center"><img style="height: 300px" width="300px"  src='/Users/mateuszstopyra/Desktop/Project/sprint4/jjdzr1-morswiny-rest/src/main/webapp/Images/morswin.png'></p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/64745872/99919811-f4d88a00-2d1f-11eb-931d-2cc5611d4914.png" width="400" height="400"  />
+  </p>
+
 
 Project: Terminal & Web App to register & manage cultural events
 in Tricity
@@ -18,7 +21,7 @@ Used: Java 14, Java EE, Rest API, HTML5, CSS3, Bootstrap, JavaScript, JUnit, Fre
 
 ### Requirement
 
-The code is tested on Ubuntu and macOS. Java>=8+ is required to run the code.
+The code is tested on Ubuntu and macOS. Java>=8+ and Maven are required to run the code.
 
 ### To Do
 - [x] Release 1.3.0 version with full hibernate connection
